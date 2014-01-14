@@ -1,0 +1,43 @@
+li {
+	list-style: none;
+	display: inline;
+	margin: 5px 5px;
+	height: 60px;
+	width: 60px;
+	text-indent: -9999em;
+}
+
+.linkedIn {
+	background: url("images/socialNav.png") 0px 64px;
+}
+
+.twitter {
+	background: url("images/socialNav.png") -60px 64px;
+}
+
+.facebook {
+	background: url("images/socialNav.png") -120px 64px;
+}
+
+.rss {
+	background: url("images/socialNav.png") -180px 64px;
+}
+
+
+
+
+.linkedIn:hover {
+	background: url("images/socialNav.png") 0px 0px;
+}
+
+.twitter:hover {
+	background: url("images/socialNav.png") -60px 0px;
+}
+
+.facebook:hover {
+	background: url("images/socialNav.png") -120px 0px;
+}
+
+.rss:hover {
+	background: url("images/socialNav.png") -180px 0px;
+}
